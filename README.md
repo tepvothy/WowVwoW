@@ -8,13 +8,12 @@
 </p>
 
 <h3 align="left">Direct link below</h3>
-<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#install-socks-a-single-command-line-" target="blank"><img align="center" src="https://github.com/tepvothy/WowVwoW/blob/main/images/socks.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#install-socks-a-single-command-line-"/></a>
-<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#http-proxy" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/http.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#http-proxy"/></a>
-<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#shadowsocks" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/shadowsocks.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#shadowsocks"/></a>
-<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#l2tp-server-by-teddysun" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/l2tp.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#l2tp-server-by-teddysun"/></a>
-<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#mtproxy-install-in-ubuntu" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/mtproxy.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#mtproxy-install-in-ubuntu"/></a>
-<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#install-openvpn-server-a-single-command-by-yeasin989" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/openvpn.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#install-openvpn-server-a-single-command-by-yeasin989"/></a>
-
+<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#install-socks-a-single-command-line-" target="blank"><img align="center" src="https://github.com/tepvothy/WowVwoW/blob/main/images/socks.png" alt="https://github.com/tepvothy/WowVwoW/blob/main/README.md#install-socks-a-single-command-line-"/></a>
+<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#http-proxy" target="blank"><img align="center" src="https://github.com/tepvothy/WowVwoW/blob/main/images/http.png" alt="https://github.com/tepvothy/WowVwoW/blob/main/README.md#http-proxy"/></a>
+<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#shadowsocks" target="blank"><img align="center" src="https://github.com/tepvothy/WowVwoW/blob/main/images/shadowsocks.png" alt="https://github.com/tepvothy/WowVwoW/blob/main/README.md#shadowsocks"/></a>
+<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#l2tp-server-by-teddysun" target="blank"><img align="center" src="https://github.com/tepvothy/WowVwoW/blob/main/images/l2tp.png" alt="https://github.com/tepvothy/WowVwoW/blob/main/README.md#l2tp-server-by-teddysun"/></a>
+<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#mtproxy-install-in-ubuntu" target="blank"><img align="center" src="https://github.com/tepvothy/WowVwoW/blob/main/images/mtproxy.png" alt="https://github.com/tepvothy/WowVwoW/blob/main/README.md#mtproxy-install-in-ubuntu"/></a>
+<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#install-openvpn-server-a-single-command-by-yeasin989" target="blank"><img align="center" src="https://github.com/tepvothy/WowVwoW/blob/main/images/openvpn.png" alt="https://github.com/tepvothy/WowVwoW/blob/main/README.md#install-openvpn-server-a-single-command-by-yeasin989"/></a>
 
 <h1 id="socks5">install socks a single command line </h1>
 <p><code class="language-plaintext highlighter-rouge">curl https://raw.githubusercontent.com/tepvothy/WowVwoW/refs/heads/master/socks.txt | sudo bash</code></p>
@@ -34,14 +33,14 @@ curl https://raw.githubusercontent.com/tepvothy/WowVwoW/refs/heads/master/socks.
   <li>CentOS 7 and Oracle Linux 7.5 (thanks to <a href="https://github.com/vladsf">Vlad Safronov</a>)</li>
 </ul>
 
-<h1 id="shadowsocks">shadowsocks <a href="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#direct-link-below" target="blank"><img align="right" src="https://thumbnail.imgbin.com/23/6/16/imgbin-button-return-s-mSaKDepmjzAignfPP9c5QrPnx_t.jpg" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#direct-link-below" height="30" width="40" /></a></h1>
+<h1 id="shadowsocks">shadowsocks <a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#direct-link-below" target="blank"><img align="right" src="https://thumbnail.imgbin.com/23/6/16/imgbin-button-return-s-mSaKDepmjzAignfPP9c5QrPnx_t.jpg" alt="https://github.com/tepvothy/WowVwoW/blob/main/README.md#direct-link-below" height="30" width="40" /></a></h1>
 
-<p><code class="language-plaintext highlighter-rouge">curl https://raw.githubusercontent.com/BRAVO-IT/VPN/refs/heads/master/shadowsocks.txt | sudo bash</code></p>
+<p><code class="language-plaintext highlighter-rouge">curl https://raw.githubusercontent.com/tepvothy/WowVwoW/refs/heads/master/shadowsocks.txt | sudo bash</code></p>
 
 <p>If you would like to manually set port and/or password:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">PORT</span><span class="o">=</span>8080<span class="p">;</span> <span class="nb">export </span><span class="nv">PASSWORD</span><span class="o">=</span>mypass
-curl https://raw.githubusercontent.com/BRAVO-IT/VPN/refs/heads/master/shadowsocks.txt | <span class="nb">sudo</span> <span class="nt">--preserve-env</span> bash
+curl https://raw.githubusercontent.com/tepvothy/WowVwoW/refs/heads/master/shadowsocks.txt | <span class="nb">sudo</span> <span class="nt">--preserve-env</span> bash
 </code></pre></div></div>
 
 <p>This creates self-hosted <a href="https://shadowsocks.org/">shadowsocks</a> server. Clients:</p>
@@ -57,7 +56,7 @@ curl https://raw.githubusercontent.com/BRAVO-IT/VPN/refs/heads/master/shadowsock
   <li>Ubuntu 18.04 Bionic</li>
   <li>CentOS 7 and RHEL 7 (thanks to Octavian Dodita octavian2204[anti-spam-dog]gmail.com )</li>
 </ul>
- <h1 id="HTTP Proxy">HTTP Proxy <a href="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#direct-link-below" target="blank"><img align="right" src="https://thumbnail.imgbin.com/23/6/16/imgbin-button-return-s-mSaKDepmjzAignfPP9c5QrPnx_t.jpg" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#direct-link-below" height="30" width="40" /></a></h1>
+ <h1 id="HTTP Proxy">HTTP Proxy <a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#direct-link-below" target="blank"><img align="right" src="https://thumbnail.imgbin.com/23/6/16/imgbin-button-return-s-mSaKDepmjzAignfPP9c5QrPnx_t.jpg" alt="https://github.com/tepvothy/WowVwoW/blob/main/README.md#direct-link-below" height="30" width="40" /></a></h1>
 
  <p>Set up squid server in Centos 7 follow command below:</p>
  <p>1. command line Install squid</p>
@@ -97,7 +96,7 @@ tail -f /var/log/squid/access.log</code></p>
 
 <p>That's all enjoy your http proxy</p>
 
-<h1>L2TP Server by <a href="https://github.com/teddysun">teddysun</a><a href="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#direct-link-below" target="blank"><img align="right" src="https://thumbnail.imgbin.com/23/6/16/imgbin-button-return-s-mSaKDepmjzAignfPP9c5QrPnx_t.jpg" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#direct-link-below" height="30" width="40" /></a></h1>
+<h1>L2TP Server by <a href="https://github.com/teddysun">teddysun</a><a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#direct-link-below" target="blank"><img align="right" src="https://thumbnail.imgbin.com/23/6/16/imgbin-button-return-s-mSaKDepmjzAignfPP9c5QrPnx_t.jpg" alt="https://github.com/tepvothy/WowVwoW/blob/main/README.md#direct-link-below" height="30" width="40" /></a></h1>
 
 <p>1. Install l2tp server</p>
 <p><code class="language-plaintext highligter-rouge">wget --no-check-certificate https://raw.githubusercontent.com/teddysun/across/master/l2tp.sh</code></p>
@@ -111,7 +110,7 @@ tail -f /var/log/squid/access.log</code></p>
 <p><code class="language-plaintext highligter-rouge">l2tp -l </code>(List all users)</p>
 <p><code class="language-plaintext highligter-rouge">l2tp -m </code>(Modify a user password)</p>
 
-<h1>MTPROXY install in Ubuntu <a href="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#direct-link-below" target="blank"><img align="right" src="https://thumbnail.imgbin.com/23/6/16/imgbin-button-return-s-mSaKDepmjzAignfPP9c5QrPnx_t.jpg" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#direct-link-below" height="30" width="40" /></a></h1>
+<h1>MTPROXY install in Ubuntu <a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#direct-link-below" target="blank"><img align="right" src="https://thumbnail.imgbin.com/23/6/16/imgbin-button-return-s-mSaKDepmjzAignfPP9c5QrPnx_t.jpg" alt="https://github.com/tepvothy/WowVwoW/blob/main/README.md#direct-link-below" height="30" width="40" /></a></h1>
 <p>1. Update </p>
 <p><code class="language-plaintext highligter-rouge">apt update
 apt install apt-transport-https ca-certificates curl software-properties-common</code></p>
@@ -135,12 +134,6 @@ systemctl status ntp.service</code></p>
 <p>1 Openvpn free 1024 client</p>
 <p><code class="language-plaintext highligter-rouge">cd /tmp/ && yum install git -y && git clone https://github.com/yeasin989/OPEN-VPN-ACCESS-SERVER.git && cd OPEN-VPN-ACCESS-SERVER/ && sed -i -e 's/\r$//' centos7.sh && chmod 755 centos7.sh && ./centos7.sh</code></p>
 Thank You.
-
- <h1 id="Contact me">Contact me</h1>
-<ul>
-  <li>Telegram: <a href="https://t.me/BRAVO_IT">BRAVO_IT</a></li>
-  <li>Youtube: <a href="https://youtube.com/@littleskill168?si=VEru_lzwOXJg5Wk9">Littleskill</a></li>
-</ul>
 
 
 
