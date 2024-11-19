@@ -6,27 +6,23 @@
 <p align="left">
 <img src="telegram_QR.png" alt="telegram_QR" width="200" height="200">
 </p>
-<h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/https://buymeacoffee.com/bravo_it"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="https://buymeacoffee.com/bravo_it" /></a></p><br><br>
-<h3 align="left">Buy Proxy click button below</h3>
-<p><a href="https://t.me/BRAVO_IT"> <img align="left" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/sell.png" height="50" width="210" alt="https://t.me/BRAVO_IT" /></a></p><br><br>
 
 <h3 align="left">Direct link below</h3>
-<a href="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#install-socks-a-single-command-line-" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/socks.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#install-socks-a-single-command-line-"/></a>
-<a href="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#http-proxy" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/http.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#http-proxy"/></a>
-<a href="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#shadowsocks" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/shadowsocks.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#shadowsocks"/></a>
-<a href="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#l2tp-server-by-teddysun" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/l2tp.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#l2tp-server-by-teddysun"/></a>
-<a href="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#mtproxy-install-in-ubuntu" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/mtproxy.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#mtproxy-install-in-ubuntu"/></a>
-<a href="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#install-openvpn-server-a-single-command-by-yeasin989" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/openvpn.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#install-openvpn-server-a-single-command-by-yeasin989"/></a>
+<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#install-socks-a-single-command-line-" target="blank"><img align="center" src="https://github.com/tepvothy/WowVwoW/blob/main/images/socks.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#install-socks-a-single-command-line-"/></a>
+<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#http-proxy" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/http.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#http-proxy"/></a>
+<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#shadowsocks" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/shadowsocks.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#shadowsocks"/></a>
+<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#l2tp-server-by-teddysun" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/l2tp.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#l2tp-server-by-teddysun"/></a>
+<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#mtproxy-install-in-ubuntu" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/mtproxy.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#mtproxy-install-in-ubuntu"/></a>
+<a href="https://github.com/tepvothy/WowVwoW/blob/main/README.md#install-openvpn-server-a-single-command-by-yeasin989" target="blank"><img align="center" src="https://github.com/cheysethi1999/BRAVO/blob/master/images/openvpn.png" alt="https://github.com/cheysethi1999/BRAVO/blob/master/README.md#install-openvpn-server-a-single-command-by-yeasin989"/></a>
 
 
 <h1 id="socks5">install socks a single command line </h1>
-<p><code class="language-plaintext highlighter-rouge">curl https://raw.githubusercontent.com/BRAVO-IT/VPN/refs/heads/master/socks.txt | sudo bash</code></p>
+<p><code class="language-plaintext highlighter-rouge">curl https://raw.githubusercontent.com/tepvothy/WowVwoW/refs/heads/master/socks.txt | sudo bash</code></p>
 
 <p>If you would like to manually set port and/or password:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">PORT</span><span class="o">=</span>8080<span class="p">;</span> <span class="nb">export </span><span class="nv">PASSWORD</span><span class="o">=</span>mypass
-curl https://raw.githubusercontent.com/BRAVO-IT/VPN/refs/heads/master/socks.txt | <span class="nb">sudo</span> <span class="nt">--preserve-env</span> bash
+curl https://raw.githubusercontent.com/tepvothy/WowVwoW/refs/heads/master/socks.txt | <span class="nb">sudo</span> <span class="nt">--preserve-env</span> bash
 </code></pre></div></div>
 
 <p>This creates self-hosted <a href="https://en.wikipedia.org/wiki/SOCKS">SOCKS5</a> server powered by <a href="http://www.inet.no/dante/">Dante</a>. Supported Linux distributions:</p>
