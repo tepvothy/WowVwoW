@@ -1,23 +1,23 @@
 # Site settings
-title: Wow.V.woW
-#email: https://github.com/tepvothy/Wow.V.woW.git
+title: BRAVO_IT
+#email: https://github.com/cheysethi1999/BRAVO.git
 # > this means to ignore newlines until "baseurl:"
 description: >
   Just another IT blog
 # the subpath of your site, e.g. /blog
 baseurl: ""
 # the base hostname & protocol for your site
-url: "https://github.com/tepvothy/Wow.V.woW.git"
+url: "https://github.com/cheysethi1999/BRAVO.git"
 #twitter_username: i_got_no_twitter
-github_username: Wow.V.woW
+github_username: BRAVO_IT
 
 # Specify social profiles in site metadata with jekyll-seo-tag plugin
 # https://jekyll.github.io/jekyll-seo-tag/usage/
 # https://developers.google.com/search/docs/data-types/social-profile
 social:
-  name: Wow.V.woW
+  name: BRAVO_IT
   links:
-    - https://github.com/tepvothy/Wow.V.woW.git
+    - https://github.com/cheysethi1999/BRAVO.git
 
 
 # Publish posts with a future date
