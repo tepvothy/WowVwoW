@@ -1,0 +1,77 @@
+#!/bin/bash
+# Homepage: https://github.com/BRAVO-IT/VPN
+# Author: BRAVO_IT
+
+function get_external_address() {
+    local addr=$( timeout 3 curl -s http://ipecho.net/plain || \
+                  timeout 3 curl -s http://ident.me/ || \
+                  timeout 3 curl -s http://whatismyip.akamai.com/ )
+    [ $? -ne 0 ] && addr="<this server IP address>"
+    echo "$addr"
+}
+
+# Default proxy credentials
+PASSWORD=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 12)
+
+# Install Shadowsocks manually
+function install_shadowsocks() {
+    yum install -y epel-release
+    yum update -y
+    yum install -y wget git gcc autoconf automake libtool make zlib-devel openssl-devel pcre-devel c-ares-devel asciidoc xmlto libev-devel
+    
+    rm -rf shadowsocks-libev
+    git clone https://github.com/shadowsocks/shadowsocks-libev.git
+    cd shadowsocks-libev
+    git submodule update --init --recursive
+    ./autogen.sh
+    ./configure && make && make install
+    cd ..
+}
+
+# Create Shadowsocks Config Directory
+mkdir -p /etc/shadowsocks-libev
+
+# Generate Shadowsocks Configuration
+function generate_shadowsocks_config() {
+    cat > /etc/shadowsocks-libev/config.json <<EOF
+{
+  "server": "0.0.0.0",
+  "server_port": 8388,
+  "password": "$PASSWORD",
+  "method": "aes-256-gcm",
+  "fast_open": true,
+  "mode": "tcp_and_udp"
+}
+EOF
+}
+
+# Open firewall ports
+function open_firewall_ports() {
+    firewall-cmd --zone=public --permanent --add-port=8388/tcp
+    firewall-cmd --zone=public --permanent --add-port=8388/udp
+    firewall-cmd --reload
+}
+
+# Enable TCP Fast Open for faster connections
+function optimize_network() {
+    sysctl -w net.ipv4.tcp_fastopen=3
+}
+
+# Start Shadowsocks manually
+function start_shadowsocks() {
+    ss-server -c /etc/shadowsocks-libev/config.json -u &
+}
+
+install_shadowsocks
+generate_shadowsocks_config
+open_firewall_ports
+optimize_network
+start_shadowsocks
+
+# Print Node Information
+echo "Your Shadowsocks Proxy Configuration:"
+echo "Protocol  : Shadowsocks"
+echo "Address   : $(get_external_address)"
+echo "Port      : 8388"
+echo "Password  : $PASSWORD"
+echo "Encryption: AES-256-GCM"

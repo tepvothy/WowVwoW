@@ -1,6 +1,6 @@
 #!/bin/bash
-# Homepage: github.com/tepvothy/WowVwoW
-# Author: WowVwoW
+# Homepage: https://github.com/BRAVO-IT/VPN
+# Author: BRAVO_IT
 # Contributors: Vlad Safronov (Oracle Linux 7.5, Centos 7)
 
 function get_external_address() {
@@ -178,11 +178,15 @@ if [ "$DISTRIB_ID $DISTRIB_CODENAME" = "Ubuntu xenial" ]; then
 	systemctl restart danted.service
 
 	echo "Your socks proxy configuration:"
-	echo "Address: $( get_external_address )"
-	echo "Port: $PORT"
-	echo "User: $USER"
-	echo "Password: $PASSWORD"
-	echo "Any question contact telegram @vtep168168"
+	echo "\`*TEAM\`"
+
+	echo "\`*USER\`"
+	echo "Protocol: \`Sock5\`"
+	echo "Address : \`$(get_external_address)\`"
+	echo "Port    : \`$PORT\`"
+	echo "User    : \`$USER\`"
+	echo "Pass    : \`$PASSWORD\`"
+	echo "Any question contact telegram @BRAVO_IT"
 
 # Ubuntu 18.04 Bionic
 elif [ "$DISTRIB_ID $DISTRIB_CODENAME" = "Ubuntu bionic" ]; then
@@ -203,11 +207,15 @@ elif [ "$DISTRIB_ID $DISTRIB_CODENAME" = "Ubuntu bionic" ]; then
 	systemctl restart danted.service
 
 	echo "Your socks proxy configuration:"
-	echo "Address: $( get_external_address )"
-	echo "Port: $PORT"
-	echo "User: $USER"
-	echo "Password: $PASSWORD"
-	echo "Any question contact telegram @vtep168168"
+	echo "\`*TEAM\`"
+
+	echo "\`*USER\`"
+	echo "Protocol: \`Sock5\`"
+	echo "Address : \`$(get_external_address)\`"
+	echo "Port    : \`$PORT\`"
+	echo "User    : \`$USER\`"
+	echo "Pass    : \`$PASSWORD\`"
+	echo "Any question contact telegram @BRAVO_IT"
 
 # Ubuntu 20.04 Focal
 elif [ "$ID $VERSION_CODENAME" = "ubuntu focal" ]; then
@@ -228,11 +236,15 @@ elif [ "$ID $VERSION_CODENAME" = "ubuntu focal" ]; then
 	systemctl restart danted.service
 
 	echo "Your socks proxy configuration:"
-	echo "Address: $( get_external_address )"
-	echo "Port: $PORT"
-	echo "User: $USER"
-	echo "Password: $PASSWORD"
-	echo "Any question contact telegram @vtep168168"
+	echo "\`*TEAM\`"
+
+	echo "\`*USER\`"
+	echo "Protocol: \`Sock5\`"
+	echo "Address : \`$(get_external_address)\`"
+	echo "Port    : \`$PORT\`"
+	echo "User    : \`$USER\`"
+	echo "Pass    : \`$PASSWORD\`"
+	echo "Any question contact telegram @BRAVO_IT"
 
 # CentOS 7 and Oracle Linux 7.5
 elif [ "$ID $VERSION_ID" = "ol 7.5" -o "$ID $VERSION_ID" = "centos 7" ]; then
@@ -264,11 +276,15 @@ elif [ "$ID $VERSION_ID" = "ol 7.5" -o "$ID $VERSION_ID" = "centos 7" ]; then
 	systemctl restart sockd.service
 
 	echo "Your socks proxy configuration:"
-	echo "Address: $( get_external_address )"
-	echo "Port: $PORT"
-	echo "User: $USER"
-	echo "Password: $PASSWORD"
-	echo "Any question contact telegram @vtep168168"
+	echo "\`*TEAM\`"
+
+	echo "\`*USER\`"
+	echo "Protocol: \`Sock5\`"
+	echo "Address : \`$(get_external_address)\`"
+	echo "Port    : \`$PORT\`"
+	echo "User    : \`$USER\`"
+	echo "Pass    : \`$PASSWORD\`"
+	echo "Any question contact telegram @BRAVO_IT"
 
 else
 
@@ -280,7 +296,7 @@ else
 	echo "- Ubuntu 20.04 Focal"
 	echo "- Oracle Linux 7.5"
 	echo "- Centos 7"
-	echo "Any question contact telegram @vtep168168"
+	echo "Any question contact telegram @BRAVO_IT"
 	exit 1
 
 fi
