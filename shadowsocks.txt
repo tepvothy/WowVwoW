@@ -1,6 +1,6 @@
 #!/bin/bash
-# Homepage: github.com/tepvothy/WowVwoW
-# Author: WowVwoW
+# Homepage: github.com/cheysethi1999/BRAVO
+# Author: BRAVO_IT
 # Contributor: Octavian Dodita(CentOS 7, RHEL 7)
 
 function get_external_address() {
@@ -84,7 +84,7 @@ function print_config() {
 	echo "URL: ss://$( generate_hash chacha20-ietf-poly1305 $1 )@$( get_external_address ):$2"
 	echo "Android client: https://play.google.com/store/apps/details?id=com.github.shadowsocks"
 	echo "Clients for other devices: https://shadowsocks.org/en/download/clients.html"
-	echo "Any question contact telegram @vtep168168"
+	echo "Any question contact telegram @BRAVO_IT"
 }
 
 IFACE=$(ip route get 8.8.8.8 | head -1 | cut -d' ' -f5)
@@ -182,7 +182,7 @@ else
 	echo "- Ubuntu 20.04 Focal"
 	echo "- CentOS 7"
 	echo "- RHEL 7"
-	echo "Any question contact telegram @vtep168168"
+	echo "Any question contact telegram @BRAVO_IT"
 	exit 1
 
 fi

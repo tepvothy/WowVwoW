@@ -182,7 +182,7 @@ if [ "$DISTRIB_ID $DISTRIB_CODENAME" = "Ubuntu xenial" ]; then
 	echo "Port: $PORT"
 	echo "User: $USER"
 	echo "Password: $PASSWORD"
-	echo "Any question contact telegram @vtep168168"
+	echo "Any question contact telegram @BRAVO_IT"
 
 # Ubuntu 18.04 Bionic
 elif [ "$DISTRIB_ID $DISTRIB_CODENAME" = "Ubuntu bionic" ]; then
@@ -207,7 +207,7 @@ elif [ "$DISTRIB_ID $DISTRIB_CODENAME" = "Ubuntu bionic" ]; then
 	echo "Port: $PORT"
 	echo "User: $USER"
 	echo "Password: $PASSWORD"
-	echo "Any question contact telegram @vtep168168"
+	echo "Any question contact telegram @BRAVO_IT"
 
 # Ubuntu 20.04 Focal
 elif [ "$ID $VERSION_CODENAME" = "ubuntu focal" ]; then
@@ -232,7 +232,7 @@ elif [ "$ID $VERSION_CODENAME" = "ubuntu focal" ]; then
 	echo "Port: $PORT"
 	echo "User: $USER"
 	echo "Password: $PASSWORD"
-	echo "Any question contact telegram @vtep168168"
+	echo "Any question contact telegram @BRAVO_IT"
 
 # CentOS 7 and Oracle Linux 7.5
 elif [ "$ID $VERSION_ID" = "ol 7.5" -o "$ID $VERSION_ID" = "centos 7" ]; then
@@ -268,7 +268,7 @@ elif [ "$ID $VERSION_ID" = "ol 7.5" -o "$ID $VERSION_ID" = "centos 7" ]; then
 	echo "Port: $PORT"
 	echo "User: $USER"
 	echo "Password: $PASSWORD"
-	echo "Any question contact telegram @vtep168168"
+	echo "Any question contact telegram @BRAVO_IT"
 
 else
 
@@ -280,7 +280,7 @@ else
 	echo "- Ubuntu 20.04 Focal"
 	echo "- Oracle Linux 7.5"
 	echo "- Centos 7"
-	echo "Any question contact telegram @vtep168168"
+	echo "Any question contact telegram @BRAVO_IT"
 	exit 1
 
 fi
