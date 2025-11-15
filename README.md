@@ -4,7 +4,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<img src="telegram_QR.png" alt="telegram_QR" width="200" height="200">
+<img src="telegram_QRCode.png" alt="telegram_QR" width="200" height="200">
 </p>
 
 <h3 align="left">Direct link below</h3>
